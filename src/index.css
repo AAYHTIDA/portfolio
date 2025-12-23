@@ -1,0 +1,64 @@
+:root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #0f0f1a;
+  color: #f8f8fc;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode {
+  background: #f8f9fc;
+  color: #1a1a2e;
+}
+
+/* Custom Scrollbar - Dark */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #13132a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3a3a5c;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a4a7c;
+}
+
+/* Custom Scrollbar - Light */
+body.light-mode::-webkit-scrollbar-track {
+  background: #f1f3f9;
+}
+
+body.light-mode::-webkit-scrollbar-thumb {
+  background: #c4c8d8;
+}
+
+body.light-mode::-webkit-scrollbar-thumb:hover {
+  background: #a4a8b8;
+}
+
+/* Selection */
+::selection {
+  background: rgba(129, 140, 248, 0.3);
+  color: inherit;
+}
