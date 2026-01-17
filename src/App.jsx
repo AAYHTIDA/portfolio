@@ -207,6 +207,16 @@ function App() {
       tech: ['React', 'Python', 'Assembly AI', 'Sarvam AI'],
       image: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&h=200&fit=crop',
       contribution: 'Frontend architecture, AI integration, UX design'
+    },
+    {
+      id: 3,
+      title: 'Narrative Consistency Checker',
+      shortDesc: 'AI-powered web application that evaluates character backstory consistency',
+      problem: 'Writers and content creators struggle to maintain narrative consistency across complex storylines and character development',
+      solution: 'Built an intelligent fact extraction system using LLMs with distributed data processing to analyze 100+ novel chunks and evaluate multiple backstories simultaneously with semantic timeline analysis',
+      tech: ['Python', 'React', 'Vite', 'Pathway', 'LLM', 'Tiktoken'],
+      image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=200&fit=crop',
+      contribution: 'Distributed pipeline architecture, LLM integration, concurrent processing optimization'
     }
   ]
 
